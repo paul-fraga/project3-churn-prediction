@@ -18,7 +18,7 @@ Este caso de estudio analiza el comportamiento de más de 7,000 clientes, integr
 - **Modelo seleccionado:** LightGBM Classifier.
 - **Rendimiento:** **ROC-AUC Score de 0.8985** (superando el umbral de excelencia de 0.88).
 
-![Curva ROC](images/grafica_roc_tecnica.png)
+![Curva ROC](images/grafica_roc_dark.png)
 
 - **Insight de Negocio:** La antigüedad del cliente y los contratos "Month-to-month" son los factores más críticos para la deserción. Al focalizar las campañas de retención solo en los usuarios marcados por el modelo, la empresa optimiza su presupuesto de marketing y reduce el CAC.
 
