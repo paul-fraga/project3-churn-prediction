@@ -1,33 +1,24 @@
-# Predicción de Cancelación de Clientes (Churn) - Interconnect 📉
+# 📞 Predicción de Cancelación de Clientes (Churn) - Telecomunicaciones
 
-Proyecto de Machine Learning enfocado en la retención de clientes para el sector de telecomunicaciones. El objetivo es identificar usuarios en riesgo de abandono mediante modelos predictivos, permitiendo aplicar estrategias de marketing focalizadas.
+Este proyecto desarrolla un modelo predictivo de Machine Learning para identificar clientes con alto riesgo de abandonar los servicios de la empresa de telecomunicaciones "Interconnect". El objetivo principal es proporcionar una herramienta analítica que permita al equipo de marketing aplicar estrategias proactivas de retención (como códigos promocionales y descuentos especiales).
 
-## 📊 Descripción del Proyecto
-Este caso de estudio analiza el comportamiento de más de 7,000 clientes, integrando 4 fuentes de datos distintas (contratos, demografía, internet y telefonía). A través de un exhaustivo análisis exploratorio y Feature Engineering, se desarrolló una solución capaz de predecir la baja de usuarios con un alto grado de precisión.
+**📊 <a href="https://paul-fraga.notion.site/Predicci-n-de-Churn-Interconnect-f9fe4ae179d082f5bc5581d8cfa1e47e?pvs=25" target="_blank">Ver el Caso de Estudio Completo en Notion</a>**
 
-![Distribución de Clases](images/grafica_desbalanceo_dark.png)
+### 🛠️ Tecnologías y Herramientas Utilizadas
+* **Lenguaje:** Python
+* **Manipulación y Limpieza de Datos:** Pandas, NumPy
+* **Visualización de Datos:** Matplotlib, Seaborn
+* **Modelos de Machine Learning:** LightGBM, Random Forest, Regresión Logística
+* **Métricas de Evaluación:** ROC-AUC, Accuracy
 
-## 🛠 Stack Tecnológico
-- **Lenguaje:** Python
-- **Manipulación de Datos:** `pandas`, `numpy`, `re`
-- **Visualización:** `seaborn`, `matplotlib`
-- **Modelado:** `scikit-learn`, `LightGBM`
-- **Técnicas implementadas:** Cruce de bases de datos (Merge), limpieza avanzada, Feature Engineering (`tenure_days`), balanceo de clases, validación cruzada.
+### 💡 Metodología y Resultados Clave
+1. **Análisis Exploratorio (EDA):** Se unificaron múltiples bases de datos (contratos, uso de internet, telefonía) y se trataron valores nulos.
+2. **Ingeniería de Características:** Se crearon nuevas variables, como la duración total del cliente en meses, y se aplicó codificación (One-Hot Encoding) para preparar los datos.
+3. **Entrenamiento de Modelos:** Se evaluaron diferentes algoritmos para encontrar el mejor equilibrio entre precisión y velocidad.
+4. **Resultado Final:** El modelo basado en **LightGBM** alcanzó la métrica principal con un **ROC-AUC de 0.8985**, superando significativamente la métrica objetivo del negocio.
 
-## 🏆 Resultados Clave y ROI
-- **Modelo seleccionado:** LightGBM Classifier.
-- **Rendimiento:** **ROC-AUC Score de 0.8985** (superando el umbral de excelencia de 0.88).
-
-![Curva ROC](images/grafica_roc_dark.png)
-
-- **Insight de Negocio:** La antigüedad del cliente y los contratos "Month-to-month" son los factores más críticos para la deserción. Al focalizar las campañas de retención solo en los usuarios marcados por el modelo, la empresa optimiza su presupuesto de marketing y reduce el CAC.
-
-![Importancia de Variables](images/grafica_importancia_dark.png)
-
-## 📁 Estructura del Repositorio
-- `project3_churn.ipynb`: Notebook principal con el código completo (Limpieza, EDA y Entrenamiento).
-- `/datasets/final_provider`: Datasets originales proporcionados para el estudio.
-- `/images`: Gráficas de resultados (Curva ROC, Feature Importance, Distribución de Clases).
+### 🚀 Cómo visualizar este proyecto
+El código completo y el análisis paso a paso se encuentran detallados en el cuaderno Jupyter (`.ipynb`) dentro de este repositorio. Para una lectura estructurada desde la perspectiva de negocio, te invito a visitar el caso de estudio en mi portafolio de Notion.
 
 ---
 *Proyecto desarrollado y evaluado con éxito como parte del bootcamp de Data Science.*
