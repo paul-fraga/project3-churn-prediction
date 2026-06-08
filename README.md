@@ -2,10 +2,7 @@
 
 This project develops a predictive Machine Learning model to identify customers at high risk of canceling their services with the telecommunications company "Interconnect". The main objective is to provide an analytical tool that allows the marketing team to apply proactive retention strategies (such as promotional codes and special discounts).
 
-<div align="center">
-  <a href="PON_AQUI_TU_LINK_DE_LOVABLE" target="_blank"><img src="https://img.shields.io/badge/🌐_View_Case_Study_on_Portfolio-008080?style=for-the-badge" alt="Portfolio"></a>
-</div>
-<br>
+> **🌐 [View the Interactive Case Study on my Portfolio](PON_AQUI_TU_LINK_DE_LOVABLE)**
 
 ### 🛠️ Technologies & Tools
 * **Language:** Python
@@ -37,10 +34,7 @@ The complete code and step-by-step analysis are detailed in the Jupyter Notebook
 
 Este proyecto desarrolla un modelo predictivo de Machine Learning para identificar clientes con alto riesgo de abandonar los servicios de la empresa de telecomunicaciones "Interconnect". El objetivo principal es proporcionar una herramienta analítica que permita al equipo de marketing aplicar estrategias proactivas de retención (como códigos promocionales y descuentos especiales).
 
-<div align="center">
-  <a href="PON_AQUI_TU_LINK_DE_LOVABLE" target="_blank"><img src="https://img.shields.io/badge/🌐_Ver_Caso_de_Estudio_en_Portafolio-008080?style=for-the-badge" alt="Portfolio"></a>
-</div>
-<br>
+> **🌐 [Ver el Caso de Estudio Interactivo en mi Portafolio](PON_AQUI_TU_LINK_DE_LOVABLE)**
 
 ### 🛠️ Tecnologías y Herramientas Utilizadas
 * **Lenguaje:** Python
